@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: #800000;
 }
 main{
     display: flex;
@@ -10,8 +11,12 @@ main{
 article{
     flex: 2; 
     overflow-y: auto;
+    background-color: #808080;
 }
 aside{
     flex: 1;
     overflow-y: auto;
+}
+footer{
+    background-color: #c0c0c0;
 }
