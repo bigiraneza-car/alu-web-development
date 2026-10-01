@@ -5,15 +5,49 @@ html {
 }
 body {
   text-align : center;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
 }
 
 #mainpart {
+    width: 1440px;
+    height: 1093px;
     background-image: url("background.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 
+header {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
 header #header {
-    justify-content:left;
+    justify-content:left ;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+span {
+    color: #C271FF;
+}
+#pictures {
+    width: 1009px;
+    height: 237px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    justify-content: center;
+}
+
+.circle-photo {
+    border-radius: 100px;
+    width: 150px;
+    height: 237px;
 }
