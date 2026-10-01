@@ -10,9 +10,10 @@ body {
 #mainpart {
     background-image: url("background.png");
     background-position: center;
-
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-header {
-    justify-content: center;
+header #header {
+    justify-content:left;
 }
