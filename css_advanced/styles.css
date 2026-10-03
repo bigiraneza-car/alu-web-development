@@ -32,22 +32,44 @@ header #header {
 
 h1 {
     font-weight: bold;
+    
+}
+
+button{
+    background-color: #C271FF;
+    color: #ffffff;
+    border-radius: 15px;
 }
 
 span {
     color: #C271FF;
 }
 #pictures {
-    width: 1009px;
-    height: 237px;
+    width: 217px;
+    height: 758px;
     display: flex;
     align-items: center;
-    justify-content:space-between;
-    justify-content: center;
+    justify-content: space-between;
+    
 }
 
 .circle-photo {
     border-radius: 100px;
     width: 150px;
-    height: 237px;
+    height: 150px;
+}
+
+.quote{
+    background-color: #C271FF;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.avatar {
+    border-radius: 100px;
+
+}
+
+.quote #bold{
+    font-weight: bold;
 }
