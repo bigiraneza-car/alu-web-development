@@ -32,8 +32,11 @@ header #header {
 
 h1 {
     font-weight: bold;
+    font-size: 120px;
     
 }
+
+
 
 button{
     background-color: #C271FF;
